@@ -15,9 +15,11 @@ namespace Minitest1
             {
                 if (((i % 3) == 0) || ((i % 5) == 0))
                 {
-                    ans += i;                    
+                    ans += i;  
+                    Console.WriteLine(ans);
                 }
             }
+            Console.Read();
         }
     }
 }
